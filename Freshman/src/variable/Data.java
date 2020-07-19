@@ -4,13 +4,11 @@ public class Data {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num = 2016314024;
-		double grade = 4.5;
 		String name = "유승택";
+		int num = 2016314024;
+		double grade = 4.15;
 		
-		System.out.println("이름 : " + name);
-		System.out.println("학번 : " + num);
-		System.out.println("학점 : " + grade);
+		System.out.println("이름 : " + name + "\n학번 : " + num + "\n학점 : " + grade);
 	}
 
 }
