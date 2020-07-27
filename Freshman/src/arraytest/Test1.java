@@ -1,22 +1,17 @@
 package arraytest;
 
+import java.util.Arrays;
+
 public class Test1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int a[] = new int[5];
-		int b[] = {1, 2, 3, 4, 5};
+		int a[] = new int[20];
+		int b[] = {1, 2, 3};
+		System.out.println(Arrays.toString(b));
 		
-		for(int i = 0; i < 5; i++) {
-			System.out.println(b[0]);
-		}
-		
-		a[0] = 1;
-		a[1] = 1;
-		a[2] = 1;
-		a[3] = 1;
-		a[4] = 1;
+		int c = (int)(Math.random() * 100 + 1);
 	}
 
 }
