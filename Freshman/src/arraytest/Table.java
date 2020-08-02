@@ -14,7 +14,7 @@ public class Table {
 		int a[] = new int[100];
 		
 		for(int i = 0; i < a.length; i++) {
-			a[i] = i + 1;
+			a[i] = (int)(Math.random() * 100 + 1);
 		}
 		
 		for(int i = 0; i < a.length; i++) {
