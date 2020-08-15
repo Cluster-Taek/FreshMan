@@ -1,6 +1,6 @@
 package abstracttest;
 
-public class Cat extends Animal{
+public class Cat extends Animal {
 
 	@Override
 	void crying() {
